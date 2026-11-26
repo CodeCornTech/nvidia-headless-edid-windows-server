@@ -1,5 +1,14 @@
 # NVIDIA Headless EDID Fix for Windows Server
 
+[![GitHub stars](https://img.shields.io/github/stars/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=stars)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/stargazers)
+[![MIT license](https://img.shields.io/github/license/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&label=license)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=last%20commit)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/commits/main)
+[![Open issues](https://img.shields.io/github/issues/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=issues)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/issues)
+
+[![Windows Server 2022](https://img.shields.io/badge/Windows%20Server-2022-0078D4?style=flat-square&logo=windows&logoColor=white)](#environment-observed)
+[![NVIDIA Quadro P620](https://img.shields.io/badge/NVIDIA-Quadro%20P620-76B900?style=flat-square&logo=nvidia&logoColor=white)](#environment-observed)
+[![Documentation EN / IT](https://img.shields.io/badge/docs-English%20%7C%20Italiano-555555?style=flat-square)](README.it.md)
+
 **Make Windows Server desktop applications and remote-access tools usable without a physical monitor using NVIDIA's built-in EDID emulation.**
 
 [Italiano / Guida in italiano](README.it.md) · [Troubleshooting](docs/troubleshooting.md) · [Safe rollback](docs/rollback.md) · [Validation matrix](docs/validation-matrix.md)
