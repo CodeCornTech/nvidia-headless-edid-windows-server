@@ -1,0 +1,45 @@
+name: Headless display issue / Problema display headless
+description: Report a reproducible GPU/EDID/Windows display configuration problem
+title: "[display] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please redact hostnames, serial numbers, remote-access IDs, addresses and other secrets.
+        An EDID that loaded successfully does not automatically mean Windows has the right primary display.
+  - type: input
+    id: os
+    attributes:
+      label: Windows Server edition and build
+      placeholder: "Windows Server 2022 Datacenter, build ..."
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: NVIDIA GPU and driver version
+      placeholder: "Quadro P620 / 582.99"
+    validations:
+      required: true
+  - type: textarea
+    id: screens
+    attributes:
+      label: Display topology and layout
+      description: "Which GPU connector, EDID source, primary display, resolution, scaling, extend/duplicate? Redact identifying details."
+    validations:
+      required: true
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: Symptoms and reproduction steps
+      description: "Before/after Settings scroll, Server Manager, Start, AnyDesk/Supremo/RustDesk; state whether a temporary virtual display is present."
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Results and rollback
+      description: "Mark PASS/FAIL/NOT RUN; include reboot and hot-plug only if tested, plus your recovery method."
+    validations:
+      required: true
