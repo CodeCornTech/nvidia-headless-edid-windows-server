@@ -1,0 +1,45 @@
+name: Refresh GitHub stars badge
+
+on:
+  watch:
+    types: [started]
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stars-badge
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Test badge renderer
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh stars from GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/refresh_stars.py
+
+      - name: Commit changed star count only
+        run: |
+          if git diff --quiet -- assets/badges/stars.svg; then
+            echo "No star-count change"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/badges/stars.svg
+            git commit -m "chore: refresh stars badge [skip ci]"
+            git push origin HEAD:main
+          fi
