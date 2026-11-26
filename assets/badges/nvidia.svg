@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146" height="22" viewBox="0 0 146 22" role="img" aria-label="NVIDIA: Quadro P620">
+  <rect width="146" height="22" rx="4" fill="#252b36"/>
+  <path d="M58 0H142Q146 0 146 4V18Q146 22 142 22H58Z" fill="#528c00"/>
+  <text x="29" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">NVIDIA</text>
+  <text x="102" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">Quadro P620</text>
+</svg>

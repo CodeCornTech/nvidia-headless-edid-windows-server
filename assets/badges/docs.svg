@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="22" viewBox="0 0 110 22" role="img" aria-label="docs: EN | IT">
+  <rect width="110" height="22" rx="4" fill="#252b36"/>
+  <path d="M47 0H106Q110 0 110 4V18Q110 22 106 22H47Z" fill="#7b5399"/>
+  <text x="23.5" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">docs</text>
+  <text x="78.5" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">EN | IT</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="22" viewBox="0 0 152 22" role="img" aria-label="Windows Server: 2022">
+  <rect width="152" height="22" rx="4" fill="#252b36"/>
+  <path d="M108 0H148Q152 0 152 4V18Q152 22 148 22H108Z" fill="#0078d4"/>
+  <text x="54" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">Windows Server</text>
+  <text x="130" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">2022</text>
+</svg>

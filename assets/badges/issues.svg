@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="22" viewBox="0 0 115 22" role="img" aria-label="issues: report">
+  <rect width="115" height="22" rx="4" fill="#252b36"/>
+  <path d="M58 0H111Q115 0 115 4V18Q115 22 111 22H58Z" fill="#545c71"/>
+  <text x="29" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">issues</text>
+  <text x="86.5" y="15.3" fill="#ffffff" font-size="11" font-family="Verdana,Geneva,sans-serif" text-anchor="middle">report</text>
+</svg>

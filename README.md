@@ -1,13 +1,13 @@
 # NVIDIA Headless EDID Fix for Windows Server
 
-[![GitHub stars](https://img.shields.io/github/stars/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=stars)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/stargazers)
-[![MIT license](https://img.shields.io/github/license/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&label=license)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=last%20commit)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/commits/main)
-[![Open issues](https://img.shields.io/github/issues/CodeCornTech/nvidia-headless-edid-windows-server?style=flat-square&logo=github&label=issues)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/issues)
+[![GitHub Stars](assets/badges/stars.svg)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/stargazers)
+[![MIT License](assets/badges/license.svg)](LICENSE)
+[![Open Issues](assets/badges/issues.svg)](https://github.com/CodeCornTech/nvidia-headless-edid-windows-server/issues)
+[![Case Study 2026](assets/badges/case-study.svg)](docs/validation-matrix.md)
 
-[![Windows Server 2022](https://img.shields.io/badge/Windows%20Server-2022-0078D4?style=flat-square&logo=windows&logoColor=white)](#environment-observed)
-[![NVIDIA Quadro P620](https://img.shields.io/badge/NVIDIA-Quadro%20P620-76B900?style=flat-square&logo=nvidia&logoColor=white)](#environment-observed)
-[![Documentation EN / IT](https://img.shields.io/badge/docs-English%20%7C%20Italiano-555555?style=flat-square)](README.it.md)
+[![Windows Server 2022](assets/badges/windows.svg)](#environment-observed)
+[![NVIDIA Quadro P620](assets/badges/nvidia.svg)](#environment-observed)
+[![Documentation EN / IT](assets/badges/docs.svg)](README.it.md)
 
 **Make Windows Server desktop applications and remote-access tools usable without a physical monitor using NVIDIA's built-in EDID emulation.**
 
